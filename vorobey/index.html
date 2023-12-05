@@ -1,0 +1,155 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lilya Vorobey - Artist and Designer</title>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+	
+</head>
+
+
+<body>
+<h1 span style="text-align: center">LILYA VOROBEY</span></h1>
+<!-- Drop down menu start  -->
+<div class="drop">
+<ul class="drop_menu">
+    <li>
+      <a href="art.html" title="LV Art">ART</a>
+
+      <ul class="sub-menu">
+
+        <li>
+          <a href="scuplture.html" title="LV Sculptures">Sculpture</a>
+     <!-- Need code to create subfolder for these two below-->
+                <li>
+                    <a href="machinistdreams.html" title="LV Dream Series">Machinist's Dreams</a>
+                </li>
+                <li>
+                    <a href="widmat.html" title="LV Dream Series">WIDMAT</a>
+                  </li>
+
+        </li>
+        <li>
+            <a href="paintings.html" title="">Paintings</a>
+        </li>
+        <li>
+            <a href="drawings.html">Drawings</a>
+        </li>
+        <li>
+            <a href="photography.html">Photography</a>
+        </li>
+        <li>
+            <a href="artbooks.html">Art Books</a>
+        </li>
+    
+  </ul>
+    </li>
+    <li><a href="commissions.html" title="LV Commissions">COMMISSIONS</a>
+
+        <ul class="sub-menu">
+           
+            <li>
+              <a href="murals.html">Murals</a>
+            </li>
+     <!-- Need code to create subfolder for these three below-->
+            <li>
+                <a href="Siftheadquarters.html">Sift Headquarters</a>
+            </li>
+            <li>
+                <a href="Braintree">Brain Tree</a>
+            </li>
+            <li>
+                <a href="Worldwalla.html">World Wall </a>
+            </li>
+            <li>
+                <a href="Furniture.html">Furniture</a>
+            </li>
+            <li>
+                <a href="Restorations.html">Restorations</a>
+            </li>
+      </ul>
+  </li>
+	<li><a href="about.html">ABOUT</a> </li>
+
+</ul>
+</div>
+
+<br>
+
+<!-- stop dropdown menu -->
+
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/carousel/2BTMural1.jpg" style="height: 320px">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/carousel/3CanHam.jpg" style="height: 320px">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/carousel/3Whatyousee.jpg" style="height: 320px">
+    <div class="text"></div>
+  </div>
+	
+	<div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/carousel/4GyreOilSlick.jpg" style="height: 320px">
+    <div class="text"></div>
+  </div>
+	
+	<div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/carousel/4UnclearOnConcept_2.jpg" style="height: 320px">
+    <div class="text"></div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+	<span class="dot" onclick="currentSlide(4)"></span>
+	<span class="dot" onclick="currentSlide(4)"></span>
+</div>
+<br>
+<br>
+
+<footer>
+    <p>Copyright Lilya Vorobey @ 2023</p>
+  </footer>
+  
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
+
