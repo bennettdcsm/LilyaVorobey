@@ -6,7 +6,13 @@ body {
 	padding: 0px;
 }
 
+.styled-heading1 {
+      font-size: 2em; /* Adjust font size as needed */
+      font-weight:normal; /* Or any other font-weight value */
+	  text-align: center; /* Align text center */
+      /* Add any other styles you want for your heading */
 
+    }
 
 /* Header styling and stuffs */
 h1 {
