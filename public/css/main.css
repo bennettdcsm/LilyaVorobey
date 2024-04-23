@@ -3,8 +3,7 @@ body {
     display: flex; 
     flex-direction: column;
     justify-content: center; 
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 300;
+    font-family:'Stylus BT', sans-serif;                                            
     color: #fff;
     text-align:center;
 }
