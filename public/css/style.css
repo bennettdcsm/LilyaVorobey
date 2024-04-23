@@ -10,7 +10,7 @@ body {
 
 /* Header styling and stuffs */
 h1 {
-	font-family: Stylus BT;
+	font-family: "Stylus BT", Arial, sans-serif;
 	padding-top: 24px;
 	padding-bottom: 30px;
 	margin: 0px;
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-	font-family: Stylus BT;
+	font-family: "Stylus BT", Arial, sans-serif;
 	margin: 0px;
 	font-size: 20px;
 }
@@ -99,14 +99,14 @@ nav ul li:hover .sub-menu {
 
 /* Body styling and stuffs */
 h3 {
-	font-family: Stylus BT;
+	font-family: "Stylus BT", Arial, sans-serif;
 	padding-bottom: 30px;
 	font-size: 18px;
 	-webkit-text-stroke: 1px black;
 }
 
 h4 {
-	font-family: Stylus BT;
+	font-family: "Stylus BT", Arial, sans-serif;
 	font-size: 14px;
 	padding: 0px;
 	margin:0px;
@@ -115,7 +115,7 @@ h4 {
 }
 
 h5 {
-	font-family: Stylus BT;
+	font-family: "Stylus BT", Arial, sans-serif;
 	font-size: 12px;
 	padding: 0px;
 	margin: 0px;
@@ -123,7 +123,7 @@ h5 {
 }
 
 h6 {
-	font-family: Stylus BT;
+	font-family: "Stylus BT", Arial, sans-serif;
 	font-size: 11px;
 	padding: 0px;
 	margin:0px;
@@ -163,7 +163,7 @@ h6 {
 
 /* Footer Styling */
 p {
-	font-family: Stylus BT;
+	font-family: "Stylus BT", Arial, sans-serif;
 	font-size: 12px;
 	margin-bottom: 50px;
 	margin-top: 100px;
