@@ -14,8 +14,7 @@ h1 {
 	padding-top: 50px;
 	padding-bottom: 30px;
 	margin: 0px;
-	font-size: 80px;
-	-webkit-text-stroke: 1px black;
+	font-size: 50px;
 }
 
 .namehead {
@@ -26,11 +25,11 @@ h1 {
 h2 {
 	font-family: Stylus BT;
 	margin: 0px;
-	font-size: 38px;
+	font-size: 20px;
 }
 
 nav {
-    background-color: #fff; /* Change background color to white */
+    background-color: #fff;
 	padding-bottom: 50px;
 }
 
@@ -48,13 +47,13 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: #333; /* Change link color */
+    color: #333; 
     text-decoration: none;
     padding: 15px 20px;
 }
 
 nav ul li:hover {
-    background-color: #f0f0f0; /* Change hover background color */
+    background-color: #f0f0f0; 
 }
 
 nav ul li:hover .sub-menu {
@@ -64,7 +63,7 @@ nav ul li:hover .sub-menu {
 .sub-menu {
     display: none;
     position: absolute;
-    background-color: #fff; /* Change submenu background color to white */
+    background-color: #fff; 
     text-align: left;
     z-index: 1;
 }
@@ -74,49 +73,47 @@ nav ul li:hover .sub-menu {
 }
 
 .sub-menu li a {
-    padding: 10px 20px; /* Equal padding on top and bottom */
-    margin: 0; /* Remove any default margin */
-    color: #333; /* Change submenu link color */
-    white-space: nowrap; /* Prevent text from wrapping */
+    padding: 10px 20px; 
+    margin: 0; 
+    color: #333; 
+    white-space: nowrap; 
 	background-color: white;
 }
 
 .sub-menu li:hover {
-    background-color: #f0f0f0; /* Change submenu hover background color */
+    background-color: #f0f0f0; 
 }
 
 
 .dropdif {
-	font-size: 20px;
+	font-size: 15px;
 	margin: 0px;
 	padding: 0px;
 }
 
 .subxt {
-			font-size: 14px;
-			padding-left: 20px;
+			font-size: 15px;
+			padding-left: 15px;
 		}
 
 /* Body styling and stuffs */
 h3 {
 	font-family: Stylus BT;
-	padding-bottom: 30px;
-	font-size: 55px;
-	-webkit-text-stroke: 1px black;
+	padding-bottom: 15px;
+	font-size: 30px;
 }
 
 h4 {
 	font-family: Stylus BT;
-	font-size: 35px;
+	font-size: 20px;
 	padding: 0px;
 	margin:0px;
 	margin-bottom: 15px;
-	-webkit-text-stroke: 1px black;
 }
 
 h5 {
 	font-family: Stylus BT;
-	font-size: 20px;
+	font-size: 14px;
 	padding: 0px;
 	margin: 0px;
 	margin-bottom: 85px;
@@ -124,7 +121,7 @@ h5 {
 
 h6 {
 	font-family: Stylus BT;
-	font-size: 24px;
+	font-size: 20px;
 	padding: 0px;
 	margin:0px;
 	margin-bottom: 85px;
@@ -231,85 +228,11 @@ p {
 
 /* Change sizes to fit screens */
 
-@media only screen and (max-width: 900px) {
-	h1 {
-		font-size: 60px;
-	}
-	
-	h2 {
-		font-size: 26px;
-	}
-	
-	.dropdif {
-		font-size: 18px;
-	}
-	
-	nav {
-		padding-bottom: 30px;
-	}
-	
+@media only screen and (max-width: 520px) {
 	h3 {
-		font-size: 35px;
-		padding-bottom: 30px;
-	}
-
-	h4 {
-		font-size: 35px;
-	}
-
-	h5 {
-		font-size: 18px;
-	}
-
-	h6 {
-		font-size: 14px;
-		width: 360px;
-	}
-	.subxt {
-			font-size: 12px;
+		font-size: 25px;
 	}
 }
-
-
-
-@media only screen and (max-width: 575px) {
-	h1 {
-		font-size: 46px;
-	}
-	
-	h2 {
-		font-size: 18px;
-	}
-	
-	.dropdif {
-		font-size: 12px;
-	}
-	
-	nav {
-		padding-bottom: 30px;
-	}
-	
-	h3 {
-		font-size: 24px;
-		padding-bottom: 15px;
-	}
-
-	h4 {
-		font-size: 18px;
-		margin-bottom: 10px;
-	}
-
-	h5 {
-		font-size: 12px;
-	}
-
-	h6 {
-		font-size: 14px;
-		width: 280px;
-	}
-}
-
-
 
 @media only screen and (max-width: 480px) {
 	.center {
