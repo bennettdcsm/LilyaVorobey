@@ -10,7 +10,7 @@ body {
 
 /* Header styling and stuffs */
 h1 {
-	font-family: Stylus BT;
+	font-family: "Stylus BT", Arial, sans-serif;
 	padding-top: 50px;
 	padding-bottom: 30px;
 	margin: 0px;
