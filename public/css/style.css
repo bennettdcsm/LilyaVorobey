@@ -29,7 +29,7 @@ h2 {
 }
 
 nav {
-    background-color: #fff; /* Change background color to white */
+    background-color: #fff;
 	padding-bottom: 50px;
 }
 
@@ -47,13 +47,13 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: #333; /* Change link color */
+    color: #333; 
     text-decoration: none;
     padding: 15px 20px;
 }
 
 nav ul li:hover {
-    background-color: #f0f0f0; /* Change hover background color */
+    background-color: #f0f0f0; 
 }
 
 nav ul li:hover .sub-menu {
@@ -63,7 +63,7 @@ nav ul li:hover .sub-menu {
 .sub-menu {
     display: none;
     position: absolute;
-    background-color: #fff; /* Change submenu background color to white */
+    background-color: #fff; 
     text-align: left;
     z-index: 1;
 }
@@ -73,15 +73,15 @@ nav ul li:hover .sub-menu {
 }
 
 .sub-menu li a {
-    padding: 10px 20px; /* Equal padding on top and bottom */
-    margin: 0; /* Remove any default margin */
-    color: #333; /* Change submenu link color */
-    white-space: nowrap; /* Prevent text from wrapping */
+    padding: 10px 20px; 
+    margin: 0; 
+    color: #333; 
+    white-space: nowrap; 
 	background-color: white;
 }
 
 .sub-menu li:hover {
-    background-color: #f0f0f0; /* Change submenu hover background color */
+    background-color: #f0f0f0; 
 }
 
 
