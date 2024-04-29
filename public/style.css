@@ -165,12 +165,12 @@ p {
 	margin-bottom: 50px;
 	margin-top: 100px;
 	padding: 0px;
+	width: 480px;
 }
 
 .foottop {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
-	width: 480px;
 }
 
 
@@ -234,7 +234,7 @@ p {
 		font-size: 25px;
 	}
 
-	.foottop {
+	p {
 		width: 300px;
 	}
 }
