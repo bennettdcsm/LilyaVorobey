@@ -170,6 +170,7 @@ p {
 .foottop {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+	width: 480px;
 }
 
 
@@ -231,6 +232,10 @@ p {
 @media only screen and (max-width: 520px) {
 	h3 {
 		font-size: 25px;
+	}
+
+	.foottop {
+		width: 300px;
 	}
 }
 
