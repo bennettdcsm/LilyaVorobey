@@ -136,6 +136,7 @@ h5 {
 h6 {
 	font-family: Stylus BT;
 	font-size: 20px;
+	width: 480px;
 	padding: 0px;
 	margin:0px;
 	margin-bottom: 85px;
@@ -143,6 +144,7 @@ h6 {
 	margin-right: auto;
 	text-align: center;
 	align: center;
+	
 }
 
 .video {
@@ -180,7 +182,6 @@ p {
 	margin-bottom: 50px;
 	margin-top: 100px;
 	padding: 0px;
-	width: 480px;
 }
 
 .foottop {
